@@ -1,6 +1,7 @@
 {
   "include": ["src/**/*.ts"],
   "compilerOptions": {
-    "outDir": "build"
+    "outDir": "build",
+    "lib": ["ES2020"]
   }
 }
