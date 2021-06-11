@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stucor API - Karan Sanjeev</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <style>
+      html {
+        background-color: hsl(0, 0%, 7%);
+      }
+    </style>
+  </head>
+
+  <body class="has-text-white-ter">
+    <div class="container">
+      <section class="section">
+        <p class="is-size-1 has-text-white-ter">Stucor API</p>
+        <p class="subtitle has-text-white-ter">
+          Imagine stucor website, but most of it as a JSON API for you to use ;)
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="is-size-2 has-text-white-ter">Available Endpoints</h2>
+        <hr class="has-background-grey-darker" />
+        <h3 class="is-size-3 has-text-white-ter">News</h3>
+        <div class="pt-4 pb-4">
+          <a href="https://stucor-api.vercel.app/api/news" target="_blank">
+            <code class="has-background-grey-darker"
+              >GET - https://stucor-api.vercel.app/api/news</code
+            >
+          </a>
+        </div>
+        <p class="has-text-white-ter">
+          List of all news post made by Stucor. It will be an array of objects
+          and each object will contain
+          <code class="has-background-grey-darker">title</code>,
+          <code class="has-background-grey-darker">link</code> and the
+          <code class="has-background-grey-darker">time</code> of the post
+        </p>
+      </section>
+      <section class="section">
+        <h2 class="is-size-2 has-text-white-ter">More Endpoints</h2>
+        <p>
+          I am trying to add endpoints for syllabus, notes and more. You can
+          pitch in and contribute at
+          <a href="https://github.com/smartclash/stucor-api"
+            >Stucor-API, github repo</a
+          >
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
