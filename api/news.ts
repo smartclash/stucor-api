@@ -30,6 +30,7 @@ const handler = async (_: VercelRequest, res: VercelResponse) => {
     time: blogTimings[index],
   }));
 
+  res.setHeader("Cache-Control", "s-maxage=7200, stale-while-revalidate");
   return res.json(blogEntries);
 };
 
